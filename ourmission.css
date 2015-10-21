@@ -2,9 +2,57 @@ body{
     background-color: white;
     margin: 0;
 }
+header{
+}
+#main-header ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#main-header nav{
+    width: 75%;
+}
+#main-header li{
+    margin-left: 40px;
+}
+.wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+header .wrapper{
+    justify-content: space-between;
+    display: flex;
+}
 .heading{
 }
 .mainnav{}
 li{
     list-style: none;
+}
+.mission-section{
+    padding-top: 400px;
+    background-color: #4a5a5c;
+    background-image: url( images/missionbgimg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.mission-section h2:before,
+.mission-section h2:after{
+    content: "\2605";
+}
+.team-section{
+    background-color: #0ebfdd;
+}
+.team-section ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.team-section img{
+    border-radius: 50%;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
 }
