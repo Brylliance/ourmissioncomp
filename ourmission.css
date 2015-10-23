@@ -1,18 +1,39 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('font/fontello.eot?38507458');
+  src: url('font/fontello.eot?38507458#iefix') format('embedded-opentype'),
+       url('font/fontello.woff?38507458') format('woff'),
+       url('font/fontello.ttf?38507458') format('truetype'),
+       url('font/fontello.svg?38507458#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
     background-color: white;
     margin: 0;
+    color: white;
 }
 header{
 }
 #main-header ul{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 #main-header nav{
     width: 75%;
 }
+#main-header a{
+    text-decoration: none;
+    color: #45494d;
+}
 #main-header li{
     margin-left: 40px;
+    text-transform: uppercase;
+}
+#main-header 
+#main-header h1{
+    text-transform: uppercase;
 }
 .wrapper{
     max-width: 940px;
@@ -40,6 +61,12 @@ li{
 .mission-section h2:after{
     content: "\2605";
 }
+.light-background{
+    color: #45494d;
+}
+.light-background h2{
+    color: #0ebfdd;
+}
 .team-section{
     background-color: #0ebfdd;
 }
@@ -52,7 +79,25 @@ li{
 .team-section img{
     border-radius: 50%;
 }
+.border-button{
+    color: white !important;
+    background-color: #0ebfdd;
+    text-decoration: none;
+    display: inline-block;
+    border: white 1px solid;
+    border-radius: 48px;
+    padding: 16px 30px; 
+}
+footer{ 
+}
 footer ul{
     padding: 0;
     margin: 0;
+}
+.social-media [href="facebook.com"]:before{
+    content: '\e802';
+}
+.social-media a{
+    font-family: 'fontello';
+    text-decoration: none;
 }
