@@ -12,8 +12,7 @@ body{
     background-color: white;
     margin: 0;
     color: white;
-}
-header{
+    font-family: 'Shanti', sans-serif;
 }
 #main-header ul{
     display: flex;
@@ -31,7 +30,6 @@ header{
     margin-left: 40px;
     text-transform: uppercase;
 }
-#main-header 
 #main-header h1{
     text-transform: uppercase;
 }
@@ -39,18 +37,21 @@ header{
     max-width: 940px;
     margin: 0 auto;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     padding-top: 30px;
 }
 header .wrapper{
     justify-content: space-between;
     display: flex;
 }
-.heading{
-}
-.mainnav{}
 li{
     list-style: none;
+}
+h2{
+    margin-bottom: 20px;
+}
+.team-section h2{
+    margin-bottom: 100px;
 }
 .mission-section{
     padding-top: 400px;
@@ -59,8 +60,13 @@ li{
     background-size: cover;
     background-position: center center;
 }
-.mission-section h2:before,
 .mission-section h2:after{
+    padding-left: 15px;
+    content: "\2605";
+    font-size: 10px;
+}
+.mission-section h2:before{
+    padding-right: 15px;
     content: "\2605";
     font-size: 10px;
 }
@@ -91,16 +97,28 @@ li{
     border-radius: 48px;
     padding: 16px 30px; 
 }
+#footer-nav{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 footer{
     background-color: #45494d;
 }
-footer ul{
-}
-#footer-nav{
+.footer-top{
     display: flex;
+    justify-content: space-between;
+    border-bottom: solid grey 1px;
 }
 .social-media{
     margin-top: 10px;
+}
+.info-nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.info-nav ul li{
+    padding-right: 30px;
 }
 .social-media [href*="facebook.com"]:before{
     content: '\e802';
@@ -123,5 +141,12 @@ p{
     max-width: 800px;
     margin: 0 auto;
 }
-small{
+small ul{
+    margin-right: -30px;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+small ul li{
+    padding-right: 30px;
 }
